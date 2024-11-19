@@ -1,0 +1,170 @@
+.TypingEffect {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ecf0f1;
+  margin: 0px;
+}
+
+.div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2c3e50;
+  height: 100vh;
+}
+
+.span {
+  padding-top: 220px;
+  padding-left: 100px;
+  padding-bottom: 220px;
+}
+
+.p {
+  margin: 0px;
+
+  padding-top: 50px;
+  font-size: 20px;
+  color: #ecf0f1;
+}
+
+.pp {
+  display: none;
+  margin: 0px;
+
+  padding-top: 50px;
+  font-size: 20px;
+  color: #ecf0f1;
+}
+
+.Secondp {
+  margin: 0px;
+
+  padding-top: 25px;
+  font-size: 20px;
+  color: #ecf0f1;
+}
+
+.Thirdp {
+  margin: 0px;
+
+  padding-top: 60px;
+}
+
+.a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.image {
+  padding-right: 100px;
+
+  padding-top: 100px;
+
+  width: 700px;
+  height: 700px;
+}
+
+@media (max-width: 1700px) {
+  .image {
+    padding-right: 80px;
+    padding-top: 120px;
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 1575px) {
+  .image {
+    padding-right: 60px;
+    padding-top: 140px;
+    width: 550px;
+    height: 550px;
+  }
+}
+
+@media (max-width: 1505px) {
+  .span {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-left: 60px;
+  }
+  .image {
+    padding-right: 30px;
+    padding-top: 160px;
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 1335px) {
+  .image {
+    padding-right: 30px;
+    padding-top: 180px;
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 1285px) {
+  .TypingEffect {
+    font-size: 30px;
+  }
+  .span {
+    padding-left: 45px;
+  }
+  .image {
+    padding-right: 10px;
+    padding-top: 165px;
+  }
+}
+
+@media (max-width: 1130px) {
+  .image {
+    display: none;
+  }
+  .span {
+    padding-right: 45px;
+  }
+}
+
+@media (max-width: 765px) {
+  .TypingEffect {
+    font-size: 25px;
+  }
+  .p {
+    display: none;
+  }
+  .pp {
+    display: block;
+    font-size: 16px;
+  }
+  .Secondp {
+    font-size: 16px;
+  }
+  .span {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+}
+
+@media (max-width: 500px) {
+  .TypingEffect {
+    font-size: 24px;
+  }
+  .pp {
+    padding-top: 20px;
+    font-size: 13px;
+  }
+  .Secondp {
+    padding-top: 15px;
+    font-size: 13px;
+  }
+  .Thirdp {
+    padding-top: 30px;
+  }
+  .span {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}

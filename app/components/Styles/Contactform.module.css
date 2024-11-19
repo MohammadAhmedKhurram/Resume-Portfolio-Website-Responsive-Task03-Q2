@@ -1,0 +1,38 @@
+.div {
+  height: auto;
+  width: 50vw;
+  background-color: #f3f6ff;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.thirdDiv {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+@media (max-width: 860px) {
+  .div {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media (max-width: 1060px) {
+  .div {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .thirdDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+}
